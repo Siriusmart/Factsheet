@@ -4,7 +4,7 @@
 
 |Chapter|Notes (minimal)|Notes (full)|Anki Deck|Paper|
 |---|---|---|---|---|
-|1. Matter and Radiation|[PDF](./Minimal/Physics/1_matter-and-radiation.pdf)|WIP|WIP|1|
+|1. Matter and Radiation|[PDF](./Minimal/Physics/1_matter-and-radiation.pdf)|WIP|[WIP 1/5](./Decks/Physics/1_particles-and-radiation.apkg)|1|
 |2. Quarks and Leptons|None|None|None|1|
 |3. Quantum Phenomena|None|None|None|1|
 |4. Waves|None|None|None|1|
@@ -45,11 +45,11 @@
 |3. Data Representation|None|None|None|2|
 |4. Hardware and Software|None|None|None|2|
 |5. Computer Organisation and Architecture|None|None|None|2|
-|6. Communication: Technology and Consequences|None|None|WIP|2|
+|6. Communication: Technology and Consequences|None|None|WIP 4/6|2|
 |7. Data Structures|None|None|None|1|
 |8. Algorithms|None|None|None|1|
 |9. Regular Languages|None|None|None|1|
-|10. The Internet|None|None|WIP|2|
+|10. The Internet|None|None|WIP 3/6|2|
 |11. Databases and Software Development|None|None|None|2|
 |12. OOP and Functional Programming|None|None|None|2|
 |Appendix A|None|None|None|2|
