@@ -4,7 +4,7 @@
 
 |Chapter|Notes (minimal)|Notes (full)|Anki Deck|Paper|
 |---|---|---|---|---|
-|1. Matter and Radiation|[PDF](./Minimal/Physics/1_matter-and-radiation.pdf)|[WIP 2/5](./Full/Physics/1_matter-and-radiation.pdf)|[WIP 2/5](./Decks/Physics/1_particles-and-radiation.apkg)|1|
+|1. Matter and Radiation|[PDF](./Minimal/Physics/1_matter-and-radiation.pdf)|[WIP 3/5](./Full/Physics/1_matter-and-radiation.pdf)|[WIP 2/5](./Decks/Physics/1_particles-and-radiation.apkg)|1|
 |2. Quarks and Leptons|None|None|None|1|
 |3. Quantum Phenomena|None|None|None|1|
 |4. Waves|None|None|None|1|
