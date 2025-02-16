@@ -7,7 +7,7 @@
 |1. Matter and Radiation|[PDF](./Minimal/Physics/1/1_matter-and-radiation.pdf)|[PDF](./Full/Physics/1/1_matter-and-radiation.pdf)|[APKG](./Decks/Physics/1_particles-and-radiation.apkg)|1|
 |2. Quarks and Leptons|[PDF](./Minimal/Physics/2/2_quarks-and-leptons.pdf)|[PDF](./Full/Physics/2/2_quarks-and-leptons.pdf)|[APKG](./Decks/Physics/2_quarks-and-leptons.apkg)|1|
 |3. Quantum Phenomena|[PDF](./Minimal/Physics/3/3_quantum-phenomena.pdf)|[PDF](./Full/Physics/3/3_quantum-phenomena.pdf)|[APKG](./Decks/Physics/3_quantum-phenomena.apkg)|1|
-|4. Waves|[PDF](./Minimal/Physics/4/4_waves.pdf)|[WIP 4/7](./Full/Physics/4/4_waves.pdf)|[WIP 4/7](./Decks/Physics/4_waves.apkg)|1|
+|4. Waves|[PDF](./Minimal/Physics/4/4_waves.pdf)|[WIP 5/7](./Full/Physics/4/4_waves.pdf)|[WIP 4/7](./Decks/Physics/4_waves.apkg)|1|
 |5. Optics|None|None|None|1|
 |6. Forces in Equilibrium|None|None|None|1|
 |7. On the Move|None|None|None|1|
