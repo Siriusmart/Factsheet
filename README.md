@@ -9,7 +9,7 @@
 |3. Quantum Phenomena|[PDF](./Minimal/Physics/3/3_quantum-phenomena.pdf)|[PDF](./Full/Physics/3/3_quantum-phenomena.pdf)|[APKG](./Decks/Physics/3_quantum-phenomena.apkg)|1|
 |4. Waves|[PDF](./Minimal/Physics/4/4_waves.pdf)|[PDF](./Full/Physics/4/4_waves.pdf)|[APKG](./Decks/Physics/4_waves.apkg)|1|
 |5. Optics|[PDF](./Minimal/Physics/5/5_optics.pdf)|[PDF](./Full/Physics/5/5_optics.pdf)|[APKG](./Decks/Physics/5_optics.apkg)|1|
-|6. Forces in Equilibrium|[PDF](./Minimal/Physics/6/6_forces-in-equilibrium.pdf)|None|None|1|
+|6. Forces in Equilibrium|[PDF](./Minimal/Physics/6/6_forces-in-equilibrium.pdf)|[WIP 1/6](./Full/Physics/6/6_forces-in-equilibrium.pdf)|None|1|
 |7. On the Move|None|None|None|1|
 |8. Newton's Laws of Motion|None|None|None|1|
 |9. Force and Momentum|None|None|None|1|
