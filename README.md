@@ -10,7 +10,7 @@
 |4. Waves|[PDF](./Minimal/Physics/4/4_waves.pdf)|[PDF](./Full/Physics/4/4_waves.pdf)|[APKG](./Decks/Physics/4_waves.apkg)|1|
 |5. Optics|[PDF](./Minimal/Physics/5/5_optics.pdf)|[PDF](./Full/Physics/5/5_optics.pdf)|[APKG](./Decks/Physics/5_optics.apkg)|1|
 |6. Forces in Equilibrium|[PDF](./Minimal/Physics/6/6_forces-in-equilibrium.pdf)|[PDF](./Full/Physics/6/6_forces-in-equilibrium.pdf)|[APKG](./Decks/Physics/6_forces-in-equilibrium.apkg)|1|
-|7. On the Move|[PDF](./Minimal/Physics/7/7_on-the-move.pdf)|[WIP 5/7](./Full/Physics/7/7_on-the-move.pdf)|[WIP 5/7](./Decks/Physics/7_on-the-move.apkg)|1|
+|7. On the Move|[PDF](./Minimal/Physics/7/7_on-the-move.pdf)|[PDF](./Full/Physics/7/7_on-the-move.pdf)|[WIP 5/7](./Decks/Physics/7_on-the-move.apkg)|1|
 |8. Newton's Laws of Motion|None|None|None|1|
 |9. Force and Momentum|None|None|None|1|
 |10. Work, Energy, and Power|None|None|None|1|
