@@ -1,0 +1,57 @@
+\subsection{Object-oriented Design Principles}
+
+\textbf{Association} is a \emph{"has a"} relationship between classes.
+\begin{itemize}
+    \item \textbf{No ownership} between objects.
+    \item Each have their own lifecycle - can be created and deleted independently.
+\end{itemize}
+
+\textbf{Aggregation} is a type of association.
+\begin{itemize}
+    \item A class is a container of other classes.
+    \item The contained class do not have a strong \textbf{lifecycle dependency} on the container.
+\end{itemize}
+
+\textbf{Composition} is a stronger form of association.
+\begin{itemize}
+    \item If the container is destroyed, every instance of the contained class is also destroyed.
+\end{itemize}
+
+\begin{itemize}
+    \item \textbf{Polymorphism} - the programming language's ability to process objects differently \textbf{depending on their class}.
+    \item \textbf{Overriding} - defining a method with the same name and formal argument types as a method inherited from a superclass.
+\end{itemize}
+
+Composition is generally considered preferable to inheritance as it allows \textbf{greater flexibility} - is a less rigid relationship.
+
+\subsubsection*{Access Modifiers}
+
+\textbf{Information hiding}: object's instance variable are hidden so other objects \textbf{must use messages} to interact with that object's state.
+
+\begin{itemize}
+    \item \textbf{public} - code within any class can see it.
+    \item \textbf{private} - only code within the class itself can access it.
+\end{itemize}
+
+\subsubsection*{Interface}
+
+An interface is a \textbf{collection of abstract methods} that a group of unrelated classes may implement.
+\begin{itemize}
+    \item Methods will only be implemented by a class that implements the interface, \underline{not the interface itself}.
+\end{itemize}
+
+The strategy of \textbf{encapsulate what varies} reduce maintenance and testing effort.
+\begin{itemize}
+    \item Using an \textbf{interface class} implemented by different classes - code that relies on the interface can \textbf{handle any class} implementing the interface.
+    \item If something changes in a program, only that module will need to change.
+\end{itemize}
+
+\subsubsection*{Advantages of Object-oriented Paradigm}
+\begin{itemize}
+    \item Forces designer to go through a planning phase, which makes better design and fewer weaknesses.
+    \item \textbf{Encapsulation} - source code for an object can be written, tested and maintained independently.
+    \item Details of how methods are implemented is not necessary in order to use it.
+    \item New objects similar to existing ones can easily be created.
+    \item \textbf{Re-usability} - tested objects may be used in many different programs.
+    \item \textbf{Maintenance} - an OO program is much easier to maintain because of its \textbf{rigidly enforced modular structure}.
+\end{itemize}
