@@ -18,7 +18,7 @@ Anki decks can also be [viewed online](https://siriusmart.github.io/anki).
 |10. Work, Energy, and Power|[PDF](./Minimal/Physics/10/10_work-energy-and-power.pdf)|[PDF](./Full/Physics/10/10_work-energy-and-power.pdf)|[APKG](./Decks/Physics/10_work-energy-and-power.apkg)|1|
 |11. Materials|[PDF](./Minimal/Physics/11/11_materials.pdf)|[PDF](./Full/Physics/11/11_materials.pdf)|[APKG](./Decks/Physics/11_materials.apkg)|1|
 |12. Electric Current|[PDF](./Minimal/Physics/12/12_electric-current.pdf)|[PDF](./Full/Physics/12/12_electric-current.pdf)|[APKG](./Decks/Physics/12_electric-current.apkg)|1|
-|13. DC Circuits|[PDF](./Minimal/Physics/13/13_direct-current-circuit.pdf)|None|None|1|
+|13. DC Circuits|[PDF](./Minimal/Physics/13/13_direct-current-circuit.pdf)|[WIP 2/4](./Full/Physics/13/13_direct-current-circuits.pdf)|None|1|
 |14. Practical Work in Physics|Skip|Skip|Skip|3|
 |15. About Practical Assessment|Skip|Skip|Skip|3|
 |16. More on Mathematical Skills|Skip|Skip|Skip|3|
