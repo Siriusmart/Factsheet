@@ -22,7 +22,7 @@ Anki decks can also be [viewed online](https://siriusmart.github.io/anki).
 |14. Practical Work in Physics|Skip|Skip|Skip|3|
 |15. About Practical Assessment|Skip|Skip|Skip|3|
 |16. More on Mathematical Skills|Skip|Skip|Skip|3|
-|17. Motion in a Circle|None|None|None|1|
+|17. Motion in a Circle|[PDF](./Minimal/Physics/17/17_motion-in-a-circle.pdf)|[PDF](./Full/Physics/17/17_motion-in-a-circle.pdf)|[APKG](./Decks/Physics/17_motion-in-a-circle.apkg)|1|
 |18. Simple Harmonic Motion|None|None|None|1|
 |19. Thermal Physics|None|None|None|2|
 |20. Gases|None|None|None|1|
