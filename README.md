@@ -24,7 +24,7 @@ Anki decks can also be [viewed online](https://siriusmart.github.io/anki).
 |16. More on Mathematical Skills|Skip|Skip|Skip|3|
 |17. Motion in a Circle|[PDF](./Minimal/Physics/17/17_motion-in-a-circle.pdf)|[PDF](./Full/Physics/17/17_motion-in-a-circle.pdf)|[APKG](./Decks/Physics/17_motion-in-a-circle.apkg)|1|
 |18. Simple Harmonic Motion|[PDF](./Minimal/Physics/18/18_simple-harmonic-motion.pdf)|[PDF](./Full/Physics/18/18_simple-harmonic-motion.pdf)|[APKG](./Decks/Physics/18_simple-harmonic-motion.apkg)|1|
-|19. Thermal Physics|[PDF](./Minimal/Physics/19/19_thermal-physics.pdf)|[PDF](./Full/Physics/19/19_thermal-physics.pdf)|[WIP 2/3](./Decks/Physics/19_thermal-physics.apkg)|2|
+|19. Thermal Physics|[PDF](./Minimal/Physics/19/19_thermal-physics.pdf)|[PDF](./Full/Physics/19/19_thermal-physics.pdf)|[APKG](./Decks/Physics/19_thermal-physics.apkg)|2|
 |20. Gases|None|None|None|1|
 |21. Gravitational Fields|None|None|None|2|
 |22. Electric Fields|None|None|None|2|
