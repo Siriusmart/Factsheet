@@ -1,0 +1,88 @@
+\subsection{The Kinetic Theory of Gases}
+
+Experimental laws can be explained by assuming the gas consists of \textbf{point molecules} moving about at random, continually colliding with the container walls.
+
+\begin{itemize}
+    \item \textbf{Boyle's law}: The pressure of gas at constant temperature is increased by reducing volume because the gas molecules \textbf{travel less distance between impacts} at the wall due to reduced volume.
+
+        There are more impacts per second, so pressure is greater.
+
+    \item \textbf{Charles' law}: The pressure of gas at constant volume is increased by raising temperature. The \textbf{average speed of the molecules} is increased by raising the gas temperature.
+
+        The impacts of molecules on the container walls are \textbf{harder and more frequent}, so the pressure is raised as a result.
+\end{itemize}
+
+Molecules in an ideal gas have a \textbf{continuous spread of speeds}.
+\begin{itemize}
+    \item The speed of an individual molecule changes when it collides with another gas molecule.
+    \item But the \textbf{distribution stays the same}, as long as the temperature doesn't change.
+\end{itemize}
+
+The \textbf{root mean square} speed of the molecules
+$$c_\text{rms}=\sqrt{\frac{{c_1}^2+{c_2}^2+\cdots+{c_N}^2}{N}}$$
+Where $c_1,c_2,\dots$ represent the speeds of the individual molecules.
+
+If the \textbf{temperature is raised}.
+\begin{itemize}
+    \item The molecules \textbf{move faster on average}, so the root mean square speed increases.
+    \item The distribution curve becomes \textbf{flatter and broader} because more molecules are moving at higher speeds.
+\end{itemize}
+
+\subsubsection*{The Kinetic Theory Equation}
+
+Assumptions made about the molecules in a gas
+\begin{itemize}
+    \item Molecules are \textbf{point particles} - the volume of each molecule is negligible compared with the volume of the gas.
+    \item They \textbf{do not attract each other} - if they did the force of their impacts on the container surface would be reduced.
+    \item They move about in \textbf{continual random motion}.
+    \item The collisions they undergo with each other and with the container surface are \textbf{elastic collisions}.
+    \item Each collision with the container surface is of much shorter duration than the time between impacts.
+\end{itemize}
+
+Consider \textbf{one molecule} of mass $m$ in a rectangular box.
+\begin{enumerate}
+    \item Each impact of the molecule with the (shaded) surface \textbf{reverses the x-component of velocity}. So the change in momentum is
+        $$\Delta p=2mv_x$$
+    \item The \textbf{time between successive impacts} on this face is
+        $$\Delta t=\frac{2L_x}{v_x}$$
+    \item The \textbf{force on the molecule}, and by Newton's third law - on the surface is
+        $$F=\frac{\Delta p}{\Delta t}=\frac{m{v_x}^2}{L_x}$$
+    \item The pressure of the molecule on the surface is
+        $$p=\frac{F}{A}=\frac{m{v_x}^2}{L_xL_yL_z}=\frac{m{v_x}^2}{V}$$
+    \item For $N$ molecules in the box moving at different velocities, the \textbf{total pressure} is the sum of the individual pressures $p_1,p_2,\cdots,p_N$.
+        \begin{align*}
+            p&=\frac{m{v_{x1}}^2}{V}+\frac{m{v_{x2}}^2}{V}+\cdots+\frac{m{v_{xN}}^2}{V}\\
+             &=\frac{m}{V}({v_{x1}}^2+{v_{x2}}^2+\cdots+{v_{xN}}^2)\\
+             &=\frac{Nm\bar{v_x}^2}{V}
+        \end{align*}
+        where $\bar{v_x}=\dfrac{{v_{x1}}^2+{v_{x2}}^2+\cdots+{v_{xN}}^2}{N}$
+    \item Because the motion of the molecules is random, there is \textbf{no preferred direction} of motion. The equation above is also true for
+        $$p=\frac{Nm\bar{v_y}^2}{V}=\frac{Nm\bar{v_z}^2}{V}$$
+    \item Since ${c_\text{rms}}^2=\bar{v_x}^2+\bar{v_y}^2+\bar{v_z}^2$
+        \begin{align*}
+            3p&=\frac{Nm}{V}(\bar{v_x}^2+\bar{v_y}^2+\bar{v_z}^2)\\
+            pV&=\frac{1}{3}Nm{c_\text{rms}}^2
+        \end{align*}
+\end{enumerate}
+
+\subsubsection*{Temperature and Internal Energy}
+
+The \textbf{mean kinetic energy} of a molecule of a gas
+$$\bar{E_K}=\frac{1}{2}m{c_\text{rms}}^2$$
+The higher the temperature of a gas, the greater the mean kinetic energy of a molecule of the gas.
+
+Assuming the \textbf{mean kinetic energy} of a molecule is given by
+$$\frac{1}{2}m{c_\text{rms}}^2=\frac{3}{2}kT$$
+
+Then
+\begin{align*}
+    m{c_\text{rms}}^2&=3kT\\
+    \intertext{Substitute into}
+                  pV&=\frac{1}{3}Nm{c_\text{rms}}^2\\
+                    &=NkT
+\end{align*}
+
+For an ideal gas at temperature $T$, the \textbf{mean kinetic energy} of a molecule of an ideal gas is $\dfrac{3}{2}kT$.
+
+The \textbf{total kinetic energy} for an ideal gas is its \textbf{internal energy}
+$$\text{Internal energy}=\frac{3}{2}NkT=\frac{3}{2}nRT$$
