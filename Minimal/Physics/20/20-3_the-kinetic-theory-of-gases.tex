@@ -1,0 +1,69 @@
+\subsection{The Kinetic Theory of Gases}
+
+\begin{itemize}
+    \item \textbf{Boyle's law}: the pressure of a gas at constant temperature is increased by reducing volume.
+
+        Because the gas molecules \textbf{travel less distance} between impacts at the walls due to the reduced volume. Therefore \textbf{more impacts per second} so \textbf{pressure is greater}.
+    \item \textbf{Pressure law}: the pressure of a gas at constant volume is increased by raising its temperature.
+
+        The average speed of the molecules is increased by raising its temperature. So impacts are \textbf{harder and more frequent}. So the pressure is raised.
+\end{itemize}
+
+\subsection*{Molecular Speeds}
+
+Molecules in an ideal gas have a \textbf{continuous spread of speed}. As long as the temperature does not change, the \textbf{distribution stays the same}.
+
+The \textbf{root mean square} speed
+$$c_\text{rms}=\sqrt{\frac{{c_1}^2+{c_2}^2+\cdots+{c_N}^2}{N}}$$
+
+If the temperature is raised, the \textbf{root mean square speed increases}, the distribution curve becomes \textbf{flatter and broader} because more molecules are moving at higher speeds.
+
+\subsubsection*{The Kinetic Theory Equation}
+
+Assumptions about molecules:
+\begin{itemize}
+    \item They are \textbf{point molecules}.
+    \item They \textbf{do not attract} each other.
+    \item They move about in \textbf{continual random motion}.
+    \item Collisions are \textbf{elastic}.
+    \item Collision with the container surface is a much shorter duration than the time between impacts.
+\end{itemize}
+
+Consider a molecule in a rectangular box.
+
+\begin{enumerate}
+    \item Each impact of the molecule with a surface \textbf{reverses the x-component of velocity}, the \textbf{change in momentum} is $2mv_x$.
+    \item The \textbf{time between successive impacts} on this face is $\dfrac{2L_x}{v_x}$.
+    \item The \textbf{force on the surface} is
+        $$F=\frac{\Delta p}{\Delta t}=\frac{m{v_x}^2}{L_x}$$
+    \item The \textbf{pressure} is
+        $$p=\frac{F}{A}=\frac{m{v_x}^2}{L_xL_yL_z}=\frac{m{v_x}^2}{V}$$
+\end{enumerate}
+
+The speed of the molecule is given by its three velocity components.
+$$c^2={v_x}^2+{v_y}^2+{v_z}^2$$
+
+\begin{enumerate}
+    \setcounter{enumi}{4}
+    \item For $N$ molecules in the box, the total pressure is the sum of the individual pressures.
+        \begin{align*}
+            p&=\frac{m{v_{x1}}^2}{V}+\frac{m{v_{x2}}^2}{V}+\cdots+\frac{m{v_{xN}}^2}{V}\\
+             &=\frac{Nm}{v}\cdot\frac{{v_{x1}}^2+{v_{x2}}^2+\cdots+{v_{xN}}^2}{N}\\
+             &=\frac{Nm\,\bar{v_x}^2}{V}
+        \end{align*}
+    \item Because the motion of the molecules are random - there is \textbf{no preferred direction of motion}.
+        \begin{align*}
+            p&=\frac{Nm\,\bar{v_x}^2}{V}=\frac{Nm\,\bar{v_y}^2}{V}=\frac{Nm\,\bar{v_z}^2}{V}\\
+            3p&=\frac{Nm}{V}({v_x}^2+{v_y}^2+{v_z}^2)=\frac{Nm{c_\text{rms}}^2}{V}
+        \end{align*}
+\end{enumerate}
+
+Therefore
+$$pV=\frac{1}{3}Nm{c_\text{rms}}^2$$
+
+\subsubsection*{Kinetic Energy of Ideal Gas}
+
+$$\text{Mean kinetic energy}=\frac{1}{2}m{c_\text{rms}}^2=\frac{3}{2}kT$$
+
+So for $n$ moles of ideal gas at temperature $T$.
+$$\text{Internal energy}=\frac{3}{2}nRT$$
