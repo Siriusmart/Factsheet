@@ -46,7 +46,7 @@ Anki decks can also be [viewed online](https://siriusmart.github.io/anki).
 |2. Problem Solving and Theory of Computation|None|None|None|1|
 |3. Data Representation|None|None|None|2|
 |4. Hardware and Software|None|None|None|2|
-|5. Computer Organisation and Architecture|[WIP 1/6](./Minimal/CS/5/sec-5_computer-organisation-and-architecture.pdf)|None|None|2|
+|5. Computer Organisation and Architecture|[WIP 1/6](./Minimal/CS/5/sec-5_computer-organisation-and-architecture.pdf)|None|[WIP 1/6](./Decks/CS/5_computer-organisation-and-architecture.apkg)|2|
 |6. Communication: Technology and Consequences|None|None|WIP 4/6|2|
 |7. Data Structures|None|None|None|1|
 |8. Algorithms|None|None|None|1|
