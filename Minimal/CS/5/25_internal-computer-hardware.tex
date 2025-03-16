@@ -1,0 +1,63 @@
+\subsection{Internal Computer Hardware}
+
+\begin{itemize}
+    \item \textbf{External components} include input/output and storage devices.
+    \item \textbf{Internal components} are those within the CPU.
+        \begin{itemize}
+            \item Processor
+            \item Main memory
+            \item Address/control/data bus
+            \item I/O controllers
+        \end{itemize}
+\end{itemize}
+
+\subsubsection*{The Processor}
+
+The processor \textbf{responds to and processes the instructions} that drive the computer. It contains
+\begin{itemize}
+    \item The \textbf{control unit} \underline{coordinate s and controls all operations} carried out by the computer. It operates by repeating the \textbf{fetch-decode-execute cycle}.
+    \item ALU performs operations on data, such as \textbf{arithmetic operations} and \textbf{logical operations} and \textbf{shift operations}.
+    \item Registers are \textbf{special memory cells} that operate at very high speeds. All arithmetic and logical operations take place within Registers.
+\end{itemize}
+
+\subsubsection*{Buses}
+
+Each bus is a \textbf{shared transmission medium}, only one device can transmit at a time..
+
+\begin{itemize}
+    \item \textbf{Control bus}, a bidirectional bus to \textbf{transmit command} between components, and ensure the access to and use of the data and address buses by different components \textbf{does not lead to conflict}.
+
+        The control bus is made of \textbf{control lines}, including
+        \begin{itemize}
+            \item Memory read/write
+            \item Interrupt request
+            \item Bus request/grant
+            \item Clock
+            \item Reset
+        \end{itemize}
+    \item \textbf{Data bus}, a bidirectional bus for \textbf{moving data and instructions} between components. The width of the data bus is a key factor in determining \textbf{overall system performance}.
+    \item \textbf{Address bus} - specify an address to access a particular memory location.
+
+        The memory is divided into \textbf{words} handled as a unit by the processor, each word in memory has its own address. The width of the address bus determines the \textbf{maximum possible memory capacity} of the system.
+\end{itemize}
+
+\subsubsection*{I/O Controller}
+
+An I/O controller is a device which \textbf{interfaces between and I/O device and the processor}. Each device has a \textbf{separate controller} which connects to the control bus.
+
+The controller consists of
+\begin{itemize}
+    \item An interface that allows connection of the controller \textbf{to the system bus}.
+    \item A set of data, command, and status \textbf{registers}.
+    \item An interface that enables connection of the controller \textbf{to the cable} connecting the device to the computer.
+\end{itemize}
+
+An \textbf{interface} is a standardised form of connection defining things such as signal, voltage levels, etc.
+
+\begin{itemize}
+    \item The \textbf{von Neumann architecture} - a shared memory and bus is used for both data and instructions.
+    \item The \textbf{stored program concept} - a program \textbf{must be in main memory} to be executed, and instructions are fetched from memory one at a time.
+    \item The \textbf{Harvard architecture} - physically separate memories for instructions and data. It is used in \textbf{embedded systems} as instruction can use a read-only memory.
+\end{itemize}
+
+Harvard architecture is faster than von Neumann because data and instructions can be \textbf{fetched in parallel}.
