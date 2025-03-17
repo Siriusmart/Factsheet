@@ -1,0 +1,77 @@
+\subsection{The Processor}
+
+\begin{itemize}
+    \item The \textbf{ALU} perform arithmetic and logical operations on the data, as well as \textbf{shift operations} and \textbf{boolean logic operations}.
+    \item The \textbf{control unit} controls and coordinate the activities of the CPU - directing the \textbf{flow of data} between the CPU and other devices.
+        \begin{itemize}
+            \item Accepts the \textbf{next instruction}.
+            \item \textbf{Break down} its processing into several sequential steps.
+            \item Manages its \textbf{execution}.
+            \item \textbf{Stores} the resulting data back in memory or registers.
+        \end{itemize}
+    \item The \textbf{system clock} generates a series of signals to \textbf{synchronise CPU operations}.
+    \item \textbf{General-purpose registers} are very fast memory, all arithmetic, logical or shift operations take place in registers.
+\end{itemize}
+
+\textbf{Dedicated registers} include
+\begin{itemize}
+    \item The \textbf{program counter} holds the \underline{address} of the \textbf{next instruction} to be executed.
+    \item The \textbf{current instruction register} holds the \textbf{current instruction} being executed.
+    \item The \textbf{memory address register} holds the address of the memory location from which data is to be fetched or written.
+    \item The \textbf{memory buffer register} is used to temporarily store the data read from or written to memory.
+    \item The \textbf{status register} contains bits that are set or cleared depending on the result of an instruction.
+\end{itemize}
+
+\subsubsection*{The Fetch-Execute Cycle}
+
+This cycle is repeated over and over as each instruction of the program is executed.
+\begin{enumerate}
+    \item \textbf{Fetch phase}
+        
+        The address of the next instruction is copied \textbf{from PC to MAR}, the address is \textbf{sent via address bus} to memory.
+    \item The instruction held at that address is returned along the data bus \textbf{to the MBR}. Simultaneously, the content of the \textbf{PC is incremented} so it holds the address of the next instruction.
+    \item The content of the MBR is \textbf{copied to the CIR}.
+
+    \item \textbf{Decode phase}
+        
+        The instruction held in the CIR is decoded - it is split into \textbf{opcode} and \textbf{operand}.
+        \begin{itemize}
+            \item The opcode determine the \textbf{type of instruction} and what hardware to use to execute it.
+            \item \textbf{Additional data} is fetched if necessary and passed to the registers.
+        \end{itemize}
+    \item \textbf{Execute phase}
+
+        The instruction is executed using the ALU if necessary, the results are stored in general purpose registers or memory.
+\end{enumerate}
+
+\subsubsection*{Processor Performance}
+
+\begin{itemize}
+    \item \textbf{Number of cores}: each core is able to process a different instruction at the same time with \textbf{its own fetch-execute cycle}.
+
+        However some software may not be able to take full advantage of multiple processors.
+    \item \textbf{Cache} is a very small amount of expensive, very fast memory inside the CPU. An instruction fetched from main memory is copied into the cache if it is \textbf{needed again soon}.
+
+        As cache fills up, unused data are \textbf{replaced with more recent ones}.
+    \item \textbf{Clock speed}: all processor activities begin on a clock pulse. The greater the clock speed, the faster the instructions will be executed.
+    \item \textbf{Word length} is the number of bits that the CPU can \textbf{process simultaneously}.
+    \item The \textbf{width of data bus} determines how many bits can be transferred simultaneously.
+
+        The \textbf{width of address bus} determines the \textbf{maximum memory address} that can be directly referenced.
+\end{itemize}
+
+\subsubsection*{Interrupts}
+
+An interrupt is a signal sent by a software program or a hardware device to the CPU.
+\begin{itemize}
+    \item \textbf{Software interrupt} occurs when an application terminates or requests certain services from the operating system.
+    \item \textbf{Hardware interrupt} occur when an I/O operation is complete or an error occurs.
+\end{itemize}
+
+When the CPU receives an interrupt signal
+\begin{enumerate}
+    \item \textbf{Suspends execution} or running program.
+    \item Puts values of each register and PC onto the \textbf{system stack}.
+    \item An \textbf{interrupt service routine} is called to deal with the interrupt.
+    \item Once served, the original values of the registers are retrieved from the stack, and the fetch-execute cycle resumes.
+\end{enumerate}
