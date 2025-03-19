@@ -1,0 +1,28 @@
+\subsection{The Processor Instruction Set}
+
+Each \textbf{different type of processor} has its own instruction set, comprising of all the instruction which are supported by its hardware.
+\begin{itemize}
+    \item Data transfer e.g. load/store.
+    \item Arithmetic operations e.g. add/subtract.
+    \item Comparison operators compares two values.
+    \item Logical operators e.g. and/or/not
+    \item Branching - conditional and unconditional branching.
+    \item Logical - bit shifts.
+    \item Halt.
+\end{itemize}
+
+\subsubsection*{Machine Code Instruction}
+
+The number of bits allocated to the \textbf{opcode} and the \textbf{operand} will vary according to the architecture and word size of the particular processor type.
+
+The \textbf{addressing mode} is represented by binary digits in the opcode.
+\begin{itemize}
+    \item \textbf{Immediate addressing} - the operand is the \textbf{actual value} to be operated on.
+    \item \textbf{Directed addressing} - the operand holds the \textbf{memory address} of the value to be operated on.
+\end{itemize}
+
+The \texttt{\#} symbol signifies that the \textbf{immediate addressing mode} is being used.
+
+\subsubsection*{Assembly Language Instructions}
+
+Assembly language use \textbf{mnemonics instead of binary codes}. Each assembly language instruction translates into \textbf{one machine code instruction}.
