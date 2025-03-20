@@ -1,0 +1,105 @@
+\subsection{Secondary Storage}
+
+Secondary storage is \textbf{not directly accessible} and has \textbf{slower access speeds}, but it \textbf{retains its contents} when the computer's power is turned off.
+
+Storage devices use a technique which allows them to \textbf{create and maintain a toggle state} without power to represent either a 1 or 0.
+
+\subsubsection*{Hard Disk}
+
+The disk:
+\begin{itemize}
+    \item Rigid \textbf{rotating platters} coated with magnetic material.
+    \item Ferrous particles on the disk are \textbf{polarised} to become either a north or south state, representing a 0 or 1.
+    \item The disk is divided into \textbf{tracks} in concentric circles, each track is subdivided into \textbf{sectors}.
+    \item The disk \textbf{spins very quickly} at speeds of up to 10,000 RPM.
+\end{itemize}
+
+The drive head:
+\begin{itemize}
+    \item Moves across the disk to \textbf{access different tracks and sectors}.
+    \item Data is read or written to the disk as it passes under the drive head.
+    \item The drive head is \textbf{not in contact} with the disk, but floats a fraction of a millimetre above it.
+    \item When the drive head is not in use, it is \textbf{parked to one side} of the disk in order to prevent damage from movement.
+\end{itemize}
+
+A hard disk may consists of \textbf{several platters}, each with its own drive head.
+\begin{itemize}
+    \item Hard disks are \textbf{less portable} than optical or solid state media.
+    \item Their \textbf{huge capacity} makes them suitable for desktop purposes.
+    \item Denser surfaces areas allows capacities up to \textbf{several terabytes}.
+\end{itemize}
+
+\subsubsection*{Optical Disk}
+
+The three \textbf{formats} of optical disks are
+\begin{itemize}
+    \item Read only: CD-ROM - it is pressed during manufacture and has pits in its surface.
+    \item Recordable: CD-R - uses a reflective layer with a \textbf{transparent dye coating} that becomes less reflective when a spot laser burns a spot in the track.
+    \item Rewritable: CD-RW - uses a laser and a magnet to \textbf{heat a spot} on the disk, then \textbf{set its state using a magnet} before it cools again.
+    \item DWD-RW - uses a \textbf{phase changing alloy} that can change between amorphous and crystalline states by \textbf{changing the power} of the laser beam.
+\end{itemize}
+
+An optical disk works by using a \textbf{high powered laser} to burn sections of its surface, making them less reflective.
+
+A laser at \textbf{low power} is used to read the disk by shining light onto the surface, and a sensor is used to measure the amount of light that is reflected back.
+
+\begin{itemize}
+    \item \textbf{Pits} are pressed areas.
+    \item \textbf{Lands} are areas that have not been pitted.
+    \item At the point where a pit starts or ends, light is scattered and therefore not reflected well - reflective and non-reflective areas are read as 1s and 0s.
+\end{itemize}
+
+There is only \textbf{one single track} on an optical disk, arranged as a tight spiral.
+
+\textbf{Blu-ray} has added capacity from
+\begin{itemize}
+    \item \textbf{Shorter wavelength} of laser used.
+    \item This create much \textbf{smaller pits} - enabling a greater number to fit in the same space along the track.
+    \item The track can also be more \textbf{tightly wound}, therefore much longer.
+\end{itemize}
+
+Optical storage is
+\begin{itemize}
+    \item \textbf{Very cheap} to produce.
+    \item \textbf{Easy to send} through post for distribution purposes.
+    \item Disks are used for \textbf{small backups} or \textbf{storing music}, photographs or films.
+    \item Disk data can be \textbf{corrupted or damaged easily} by excessive sunlight or scratches.
+\end{itemize}
+
+\subsubsection*{Solid-state Disk}
+
+A solid-state disk consists of an \textbf{array of chips} arranged on a board, comprising of
+\begin{itemize}
+    \item \textbf{Millions of NAND flash memory cells}.
+    \item A \textbf{controller} that manage pages and blocks of memory.
+\end{itemize}
+
+Each cell works by
+\begin{enumerate}
+    \item Delivering a current along the \textbf{word lines} to activate the flow of electrons from the \textbf{source} towards the \textbf{drain}.
+    \item The current on the word line is strong enough to \textbf{force a few electrons across} an insulated oxide layer into a \textbf{floating gate}.
+    \item Once the current is turned off, these \textbf{electrons are trapped}.
+\end{enumerate}
+
+The state of the NAND cell is determined by \textbf{measuring the charge} in the floating gate.
+\begin{itemize}
+    \item No charge is considered a 1.
+    \item Some charge is considered a 0.
+\end{itemize}
+
+Data is stored in \textbf{pages}, grouped into \textbf{blocks}. NAND flash memory \textbf{cannot overwrite existing data} - old data must be erased before data can be written to the same location.
+\begin{enumerate}
+    \item A \textbf{separate block} is created to mirror the data to be transferred to the solid state memory.
+    \item The data is then written to the new block.
+    \item The contents of the original block are \textbf{marked as stale} and are erased when new data is written to it.
+\end{enumerate}
+
+SSDs are used in personal devices.
+\begin{itemize}
+    \item Silent in operation.
+    \item Lighter and highly portable.
+    \item Consume \textbf{far less power} than traditional hard drives.
+    \item \textbf{Faster access speeds} - no need to move a read-write head across the disk, one piece of data can be accessed just as quickly as any other, even if they are not closed together.
+\end{itemize}
+
+However, they have \textbf{lower capacity} than traditional hard disks.
