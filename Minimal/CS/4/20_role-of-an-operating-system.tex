@@ -1,0 +1,64 @@
+\subsection{Role of an Operating System}
+
+An operating system is a set of program that \textbf{manages the operations of the computer} for the user. It \textbf{acts as a bridge} between the user and the computer's hardware, since a user cannot communicate with hardware directly.
+
+\begin{itemize}
+    \item The operating system is held in \textbf{permanent storage} such as the hard disk.
+    \item The \textbf{loader} is held in \textbf{ROM}.
+\end{itemize}
+
+When a computer is switched on, the loader in ROM \textbf{sends instructions to load the operating system} by copying it from storage into RAM.
+
+The \textbf{Application Programming Interface} is provided to disguise the complexities of managing and communicating with its hardware from the user. So the user can complete their tasks without knowing the actual operations taking place behind the scenes to support their actions.
+
+The operating system has the following functions
+
+\begin{itemize}
+    \item \textbf{Memory management}
+        \begin{itemize}
+            \item A PC allows a user to be working on several tasks at the same time.
+            \item Each program must be \textbf{allocated a specific area of memory} whilst the computer is running.
+            \item If the user wishes to switch from one application to another in a separate window, each application must be \textbf{stored in memory simultaneously}.
+            \item The allocation and management of space is controlled by the operating system.
+        \end{itemize}
+
+        \textbf{Virtual memory} uses the hard disk as an extension of memory, it is used when the computer's RAM is not large enough to store all these programs simultaneously.
+        \begin{enumerate}
+            \item If an opened program is not in use at a particular time, the operating system may copy it and data to hard disk to \textbf{free up RAM} for another software.
+            \item When switched back to that program, the operating system will \textbf{reload it into memory}.
+        \end{enumerate}
+
+    \item \textbf{Processor scheduling} - with multiple programs running simultaneously, the operating system is responsible for \textbf{allocating processor time to each one} as they compete for the CPU.
+
+            While one application is using the CPU for processing, the OS can \textbf{queue up the next process required} by another application to make the most efficient use of the processor.
+        \begin{itemize}
+            \item A computer with a single-core processor can only process \textbf{one application} at a time.
+            \item By carrying out \textbf{small parts of multiple larger tasks} in turn, the processor can give the appearance of \textbf{carrying out several tasks simultaneously}.
+            \item This is called \textbf{multi-tasking}.
+        \end{itemize}
+
+        The \textbf{scheduler} is the operating system module responsible for making sure that processor time is used as efficiently as possible. Its objective are to
+        \begin{itemize}
+            \item Maximise throughput.
+            \item Be \textbf{fair to all users} on a multi-user system.
+            \item Provide \textbf{acceptable response time} to all users.
+            \item Ensure hardware resources are \textbf{kept as busy as possible}.
+        \end{itemize}
+
+    \item \textbf{Backing store management} - the operating system keeps a directory of where the files are stored so that they can be quickly accessed.
+
+        It also needs to know which areas of storage are free so that new files and applications can be saved.
+
+        A file management system enables a user to
+        \begin{itemize}
+            \item Move files and folders.
+            \item Delete files.
+            \item Protect others from \textbf{unauthorised access}.
+        \end{itemize}
+
+    \item \textbf{Peripheral management} - the operating system communicates and ensures that peripherals are allocated to processes without causing conflicts.
+
+    \item \textbf{Interrupt handling} - the OS is responsible for detecting the interrupt signal and displaying an appropriate error message for the user if appropriate.
+
+        It is because a processor can be interrupted that \textbf{multi-tasking} can take place.
+\end{itemize}
