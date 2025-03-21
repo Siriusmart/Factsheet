@@ -1,0 +1,86 @@
+\subsection{Programming Language Translators}
+
+Each type of processor will have a \textbf{different instruction set} and \textbf{different assembly language}.
+\begin{itemize}
+    \item Each instruction in assembly language is \textbf{equivalent to one machine code instruction}.
+    \item And the machine code instructions that a particular computer can execute are \textbf{completely dependent on hardware}.
+\end{itemize}
+
+The assembler program takes each assembly language instruction and \textbf{converts it to the corresponding machine code instruction}.
+\begin{itemize}
+    \item The input to the assembler is called the \textbf{source code}.
+    \item The output is the \textbf{object code}.
+\end{itemize}
+
+\subsubsection*{Compiler}
+
+A compiler is a program that translates a high-level language into machine code.
+\begin{enumerate}
+    \item Code written by the programmer - the \textbf{source code} is input as data to the compiler.
+    \item Which \textbf{scans through it} multiple times, each performing different \textbf{checks} and building up tables of information needed to produce the final object code.
+    \item The object code can then be saved and run whenever needed \textbf{without the presence of the compiler}.
+\end{enumerate}
+
+Different hardware platforms will require different compilers, since the resulting \textbf{object code is hardware-specific}.
+
+\textbf{Advantages of compiler}
+\begin{itemize}
+    \item Object code can be saved on disk and run whenever required \textbf{without the need to recompile}.
+    \item Object code \textbf{executes faster} than interpreted code.
+    \item Object code produced by a compiler can be distributed or executed \textbf{without having the compiler} present.
+    \item Object code is more secure, as it cannot be read without a great deal of reverse engineering.
+\end{itemize}
+
+\textbf{Disadvantages of compiler}
+\begin{itemize}
+    \item If an error is discovered in the program, the whole program has to be recompiled.
+\end{itemize}
+
+A compiler is appropriate when
+\begin{itemize}
+    \item A program is to be run \textbf{regularly and frequently}, with only \textbf{occasional change}.
+    \item The object code produced by the compiler is to be \textbf{distributed or sold} to users, since the source code is not present it cannot be amended.
+\end{itemize}
+
+\subsection*{Interpreter}
+
+\begin{enumerate}
+    \item The interpreter software itself \textbf{contains subroutines} to carry out each high-level instruction.
+    \item When instructed to run a program, it \textbf{looks at each line} of the source code, \textbf{analyses it} and if contains no syntax errors, \textbf{calls the appropriate subroutine} within its own program code to execute the command.
+\end{enumerate}
+
+\textbf{Advantages of interpreter}
+\begin{itemize}
+    \item Useful for \textbf{program development} as no need for lengthy recompilation each time an error is discovered.
+    \item Easier to \textbf{partially test} and debug programs.
+\end{itemize}
+
+\textbf{Disadvantages of interpreter}
+\begin{itemize}
+    \item Runs slower - each statement has to be \textbf{translated to machine code} each time it is encountered.
+\end{itemize}
+
+A interpreter is used
+\begin{itemize}
+    \item During program development, and compiled for distribution when the program is complete and correct.
+    \item In a \textbf{Student environment} when students are learning to code, so they can \textbf{test parts} of a program before coding it all.
+\end{itemize}
+
+
+\subsubsection*{Bytecode}
+
+Bytecode is an \textbf{intermediate representation} which combines compiling and interpreting.
+\begin{itemize}
+    \item The bytecode may be \textbf{compiled once} and for all (as in Java).
+    \item Or \textbf{compiled each time} a change in the source code is detected (as in Python).
+    \item The resulting bytecode is then executed by a \textbf{bytecode interpreter}.
+\end{itemize}
+
+Bytecode achieves \textbf{platform independence}
+\begin{itemize}
+    \item Any computer that can run Java programs has a \textbf{Java Virtual Machine}, which masks the inherent differences between different computer architectures and operating systems.
+    \item The JVM understands bytecode and \textbf{converts it into the machine code} for that particular computer.
+\end{itemize}
+
+Java bytecode acts as an \textbf{extra security layer} between the computer and the program - the Java bytecode interpreter is executed instead of the untrusted program, which guards against any malicious programs.
+
