@@ -1,0 +1,52 @@
+\subsection{Programming Language Classification}
+
+\subsubsection*{Machine Code}
+
+Machine code consists of \textbf{binary digits} that the computer could understand.
+
+A typical machine code instruction holds
+\begin{itemize}
+    \item An \textbf{operation code} in the first few bits.
+    \item An \textbf{operand} in the later bits.
+
+        The operand is the \textbf{data} to be operated on, or the \textbf{address} where the data is held.
+\end{itemize}
+
+In comparison, high level languages demonstrate \textbf{abstraction}, because it doesn't show how the computer actually carry out the high level instruction, so the programmer can concentrate on the algorithm.
+
+Machine code is called a \textbf{low-level programming language}, because the code reflects how the computer actually carries out the instruction - it is dependent on the actual architecture of the computer.
+
+\subsubsection*{Assembly Language}
+
+\begin{itemize}
+    \item Each opcode is replaced by a \textbf{mnemonic}, which gives good clue of the what the operator is doing.
+    \item The operand was replaced by a decimal number.
+\end{itemize}
+
+\subsubsection*{High-level Programming Languages}
+
+FORTRAN was the first high-level programming language.
+
+These languages are called \textbf{imperative high-level languages}, because each instruction is a command to perform some step in the program, which consists of the \textbf{step-by-step instructions} needed to complete the task.
+
+\begin{itemize}
+    \item High-level languages enable programmer to think and code in terms of algorithms, without worrying how each tiny step will be executed in machine code, and where each item of data is stored.
+    \item Each instruction in a high level language is \textbf{translated into several low-level language instructions}.
+\end{itemize}
+
+The advantages of a high-level language are
+\begin{itemize}
+    \item They are relatively \textbf{easy to learn}.
+    \item It is must easier and \textbf{faster to write a program} in a high-level language.
+    \item Programs written in high-level languages are easier to \textbf{understand, debug and maintain}.
+    \item Programs written in a high-level language is \textbf{not dependent on the architecture} of a particular machine - they are \textbf{machine independent}.
+    \item There are many \textbf{built-in library functions} available in most high-level languages.
+\ene{itemize}
+
+Assembly language is still used when
+\begin{itemize}
+    \item The program needs to \textbf{execute as fast as possible}.
+    \item Occupy as \textbF{little space as possible}.
+    \item Manipulate individual bits and bytes.
+\end{itemize}
+Such as in embedded system and device drivers.
