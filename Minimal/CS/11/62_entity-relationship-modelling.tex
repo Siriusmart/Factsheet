@@ -1,0 +1,43 @@
+\subsection{Entity Relationship Modelling}
+
+An \textbf{entity} is a category of object about which data is to be recorded.
+\begin{itemize}
+    \item Each entity in a database system has \textbf{attributes}.
+    \item Each entity needs an \textbf{entity identifier} which uniquely identifies the entity.
+    \item The \textbf{primary key} is the entity identifier in a \textbf{relational database}.
+\end{itemize}
+
+An \textbf{entity description} is written using the format.
+\begin{center}
+    EntityName (\underline{PrimaryKey}, Attribute1, Attribute2)
+\end{center}
+
+Two entities are said to be \textbf{related} if they are linked in some way.
+
+The \textbf{degrees of relationship} between two entities can be
+\begin{itemize}
+    \item One-to-one
+    \item One-to-many
+    \item Many-to-many
+\end{itemize}
+
+An \textbf{entity relationship diagram} is a diagrammatic way of representing the relationship between the entities in a database. Shows the
+\begin{itemize}
+    \item Degree of relationship.
+    \item Name of the relationship.
+\end{itemize}
+
+\subsubsection*{Relational Database}
+
+In a relational database, a separate \textbf{table} is created for each entity identified in the system.
+\begin{itemize}
+    \item Where a relationship exists between entities, an extra field called a \textbf{foreign key} links the two tables.
+    \item A foreign key is an attribute that creates a join between two tables - it is the attribute that is \textbf{common to both tables}.
+    \item The primary key in one table is the foreign key in the table to which it is linked.
+\end{itemize}
+
+\subsubsection*{Many-to-many Relationships}
+
+Tables cannot be linked directly in a many-to-many relationship. Instead, create a \textbf{link table} with two foreign keys, each linking to one of the two tables. The two foreign keys also act as the primary key of the table.
+
+A primary key which consists of more than one attribute is called a \textbf{composite primary key}.

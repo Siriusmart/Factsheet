@@ -52,7 +52,7 @@ Anki decks can also be [viewed online](https://siriusmart.github.io/anki).
 |8. Algorithms|None|None|None|1|
 |9. Regular Languages|None|None|None|1|
 |10. The Internet|None|None|WIP 3/6|2|
-|11. Databases and Software Development|None|None|None|2|
+|11. Databases and Software Development|[WIP 1/5](./Minimal/CS/11/sec-11_databases-and-software-development.pdf)|None|[WIP 1/5](./Decks/CS/11_databases-and-software-development.apkg)|2|
 |12. OOP and Functional Programming|[WIP 2/6](./Minimal/CS/12/sec-12_oop-and-functional-programming.pdf)|None|[WIP 2/6](./Decks/CS/12_oop-and-functioal-programming.apkg)|2|
 |Appendix A|None|None|None|2|
 |Appendix B|None|None|None|2|
