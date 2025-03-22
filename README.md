@@ -1,4 +1,11 @@
-# Subjects
+# Tracker
+
+|Task|Decks|
+|---|---:|
+|Deck Make CS 1|0/5 ▒▒▒▒▒▒▒▒▒▒ 00%|
+|Deck Make CS 2|4/8 █████▒▒▒▒▒ 50%|
+|Deck Make Physics 1|16/17 █████████▒ 90%|
+|Deck Make Physics 2|2/7 ███▒▒▒▒▒▒▒ 30%|
 
 Anki decks can also be [viewed online](https://siriusmart.github.io/anki).
 
@@ -47,11 +54,11 @@ Anki decks can also be [viewed online](https://siriusmart.github.io/anki).
 |3. Data Representation|None|None|None|2|
 |4. Hardware and Software|[PDF](./Minimal/CS/4/sec-4_hardware-and-software.pdf)|None|[APKG](./Decks/CS/4_hardware-and-software.apkg)|2|
 |5. Computer Organisation and Architecture|[PDF](./Minimal/CS/5/sec-5_computer-organisation-and-architecture.pdf)|None|[APKG](./Decks/CS/5_computer-organisation-and-architecture.apkg)|2|
-|6. Communication: Technology and Consequences|None|None|WIP 4/6|2|
+|6. Communication: Technology and Consequences|None|None|[APKG](./Decks/CS/6_communication-technology-and-consequences.apkg)|2|
 |7. Data Structures|None|None|None|1|
 |8. Algorithms|None|None|None|1|
 |9. Regular Languages|None|None|None|1|
-|10. The Internet|None|None|WIP 3/6|2|
+|10. The Internet|None|None|[APKG](./Decks/CS/10_the-internet.apkg)|2|
 |11. Databases and Software Development|[WIP 2/5](./Minimal/CS/11/sec-11_databases-and-software-development.pdf)|None|[WIP 2/5](./Decks/CS/11_databases-and-software-development.apkg)|2|
 |12. OOP and Functional Programming|[WIP 2/6](./Minimal/CS/12/sec-12_oop-and-functional-programming.pdf)|None|[WIP 2/6](./Decks/CS/12_oop-and-functioal-programming.apkg)|2|
 |Appendix A|None|None|None|2|
