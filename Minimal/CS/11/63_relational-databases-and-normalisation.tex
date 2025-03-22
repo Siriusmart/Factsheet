@@ -1,0 +1,41 @@
+\subsection{Relational Databases and Normalisation}
+
+A \textbf{relational database} is a collection of tables which relationships are modelled by shared attributes.
+
+Tables can be linked through the use of \textbf{common attributes}. This attribute must be a primary key of one of the tables, and is know as a \textbf{foreign key} in the second table.
+
+\subsubsection*{Normalisation}
+
+Normalisation is a process used to come up with the \textbf{best possible design} for a relational database. Tables are organised in a way that
+\begin{itemize}
+    \item No data is \textbf{unnecessarily duplicated}.
+    \item Data is \textbf{consistent} throughout the database. This means anomalies will not arise when the data is inserted, amended or deleted.
+
+        Consistency should be an automatic consequence of no holding any duplicated data.
+    \item The structure of each table is enough to allow you to enter \textbf{as many or as few items} as required.
+    \item The structure should enable a sure to make all kinds of \textbf{complex queries} relating data from different tables.
+\end{itemize}
+
+\begin{enumerate}
+    \item A table is in \textbf{first normal form} if it contains \textbf{no repeating attribute} or group of attributes.
+    \item A table is in \textbf{second normal form} if it is in first normal form and contains \textbf{no partial dependencies}.
+
+        A partial dependency is where one or more attributes \textbf{depends on only part of the primary key}, which can only occur if the primary key is a \textbf{composite key}.
+    \item A table is in \textbf{third normal form} if it is in second normal form and contains \textbf{no non-key dependencies}.
+
+        A non-key dependency is one where the value of an attribute is determined by the value of another attribute which is not part of the key.
+\end{enumerate}
+
+\subsection*{Advantages of Normalisation}
+
+\begin{itemize}
+    \item Easier to \textbf{maintain and change}.
+
+        \textbf{Data integrity} is maintained since there is no unnecessary duplication of data, it will also be impossible to reference a non-existing record on another table.
+
+    \item \textbf{Faster} sorting and searching, as normalisation produce \textbf{smaller tables with fewer fields}, searching is faster because less data is involved.
+
+        Holding data once saves storage space.
+
+    \item A normalised data base with \textbf{correctly defined relationships} between tables will not allow records in a table on the `one' side of a one-to-many relationship to be deleted accidentally.
+\end{itemize}
