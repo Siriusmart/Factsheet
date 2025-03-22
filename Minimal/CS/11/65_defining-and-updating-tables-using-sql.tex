@@ -1,0 +1,134 @@
+\subsection{Defining and Updating Tables Using SQL}
+
+\subsubsection*{CREATE TABLE}
+Create a new database table.
+\begin{minted}{SQL}
+CREATE TABLE TableName (
+    Field1     INTEGER NOT NULL PRIMARY KEY,
+    Field2     VARCHAR(20) NOT NULL,
+    Field3     DATE
+)
+\end{minted}
+
+Data types include
+\begin{center}
+    \begin{tabular}{|c|c|}
+        \hline
+        Data type & Description\\
+        \hline
+        \texttt{CHAR(n)} & Character string of fixed length $n$\\
+        \texttt{VARCHAR(n)} & Character string of variable length, max $n$\\
+        \texttt{BOOLEAN} & True or false\\
+        \texttt{INTEGER} & Integer\\
+        \texttt{FLOAT} & Floating point number\\
+        \texttt{DATE} & Day, month and year values\\
+        \texttt{TIME} & Hour, minute and second values\\
+        \texttt{CURRENCY} & Format numbers in currency used in your region\\
+        \hline
+    \end{tabular}
+\end{center}
+
+\subsubsection*{ALTER TABLE}
+Add, delete or modify columns in an existing table.
+\begin{minted}{SQL}
+ALTER TABLE TableName
+-- Operation, such as
+ADD    FieldName   VARCHAR(10)          -- or
+DROP   COLUMN      ColumnName           -- or
+MODIFY COLUMN      ColumnName VARCHAR(30) NOT NULL
+\end{minted}
+
+\subsubsection*{Defining Link Table}
+
+\begin{minted}{SQL}
+CREATE TABLE TableName (
+    Field1      CHAR(4) NOT NULL,
+    Field2      INTEGER NOT NULL,
+
+    FOREIGN KEY Field1 REFERENCES Table1(Field1),
+    FOREIGN KEY Field2 REFERENCES Table2(Field2),
+    PRIMARY KEY (Field1, Field2)
+)
+\end{minted}
+
+\subsubsection*{INSERT INTO}
+\begin{minted}{SQL}
+INSERT INTO TableName(Field1, Field2)
+VALUES (123, 456)
+\end{minted}
+
+\subsubsection*{UPDATE}
+\begin{minted}{SQL}
+UPDATE TableName
+SET Field1 = 123, Field2 = 456
+WHERE Field1 = 987
+\end{minted}
+
+\subsubsection*{DELETE}
+\begin{minted}{SQL}
+DELETE FROM TableName
+WHERE Field1 = 123
+\end{minted}
+
+\subsubsection*{Client-server Databases}
+
+\textbf{Database Management System} (DBMS) provides an option for client-server operation.
+\begin{itemize}
+    \item DBMS \textbf{server software} runs on the network server.
+    \item DBMS \textbf{client software} runs on individual workstations.
+\end{itemize}
+
+The server software \textbf{processes requests} for data searches and reports that originate from individual work stations running DBMS client software.
+
+If the DBMS does not have client-server capability, the entire database would be \textbf{copied to the workstation} and software held on the workstation would search for the requested data.
+\begin{itemize}
+    \item A large amount of time is being spent of transmitting irrelevant data.
+    \item A longer search with a less powerful machine.
+\end{itemize}
+
+\textbf{Advantages of client-server databases}
+\begin{itemize}
+    \item The \textbf{consistency} of the database is maintained because only one copy of the data is held.
+    \item An expensive resource can be made \textbf{available to large number of users}.
+    \item \textbf{Access rights} and security is managed and controlled centrally.
+    \item \textbf{Backup and recovery} can be managed centrally.
+\end{itemize}
+
+\subsubsection*{Problems with Client-server Databases}
+
+Allowing multiple users to \textbf{simultaneously update a database table} may cause one of the updates to be lost.
+\begin{enumerate}
+    \item When an item is updated, the entire record is \textbf{copied to to the user's local memory} at the work station.
+    \item When the record is saved, the record is rewritten to the server.
+\end{enumerate}
+
+\subsubsection*{Record Locks}
+
+Record locking is a technique of \textbf{preventing simultaneous access to objects} in a database in order to prevent updates being lost or inconsistencies in the data arising.
+\begin{itemize}
+    \item A record is locked whenever a user retrieves it for editing or updating.
+    \item Anyone else attempting to retrieve the same record is \textbf{denied access} until the transaction is completed or cancelled.
+\end{itemize}
+
+If two users are attempting to update two records, a situation can arise in which \textbf{neither can proceed}, known as \textbf{deadlock}.
+\begin{itemize}
+    \item \textbf{Serialisation} is a technique which ensures the \textbf{transactions do not overlap in time} and therefore cannot interfere with each other or lead to updates being lost. A transaction cannot start until the previous one has finished.
+
+        Can be implemented using \textbf{timestamp ordering}.
+    \item \textbf{Timestamp ordering} - whenever a transaction starts, it is given a timestamp, so if two transactions affect the same object, the transaction with the \textbf{earlier timestamp is applied first}.
+
+        To ensure that transactions are not lost
+        \begin{enumerate}
+            \item Each object in the database has a \textbf{read timestamp and a write timestamp}, which are updated whenever an object in a database is read or written.
+            \item When a transaction starts, it reads the data from a record causing the \textbf{Read timestamp to be set}.
+            \item Before it writes the updated data back to the record, it will \textbf{check the read timestamp}.
+            \item If this is \textbf{not the same} as the value that was saved when this transaction started, it will know that another transaction is also taking place on the record.
+        \end{enumerate}
+        The problem can be identified and avoided.
+    \item \textbf{Commitment ordering} is a serialisation technique used to ensure that \textbf{transactions are not lost} when two or more users are simultaneously trying to access the same database object.
+
+        \begin{itemize}
+            \item Transactions are ordered in terms of their \textbf{dependencies on each other} as well as the time they were initiated.
+            \item Deadlocks can be prevented by \textbf{blocking one request} until another is completed.
+        \end{itemize}
+\end{itemize}

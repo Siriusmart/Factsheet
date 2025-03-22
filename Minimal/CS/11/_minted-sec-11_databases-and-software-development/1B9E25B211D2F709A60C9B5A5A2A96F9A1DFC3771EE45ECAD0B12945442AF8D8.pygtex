@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{DELETE}\PYG{+w}{ }\PYG{k}{FROM}\PYG{+w}{ }\PYG{n}{TableName}
+\PYG{k}{WHERE}\PYG{+w}{ }\PYG{n}{Field1}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{123}
+\end{Verbatim}

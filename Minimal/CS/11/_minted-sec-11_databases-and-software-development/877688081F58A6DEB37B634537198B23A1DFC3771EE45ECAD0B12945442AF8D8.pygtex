@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{SELECT}\PYG{+w}{      }\PYG{c+c1}{\PYGZhy{}\PYGZhy{} List of fields to be displayed}
+\PYG{k}{FROM}\PYG{+w}{        }\PYG{c+c1}{\PYGZhy{}\PYGZhy{} List of tables where the data come from}
+\PYG{k}{WHERE}\PYG{+w}{       }\PYG{c+c1}{\PYGZhy{}\PYGZhy{} List of search criteria}
+\end{Verbatim}

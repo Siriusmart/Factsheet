@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{UPDATE}\PYG{+w}{ }\PYG{n}{TableName}
+\PYG{k}{SET}\PYG{+w}{ }\PYG{n}{Field1}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{123}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Field2}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{456}
+\PYG{k}{WHERE}\PYG{+w}{ }\PYG{n}{Field1}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{987}
+\end{Verbatim}
