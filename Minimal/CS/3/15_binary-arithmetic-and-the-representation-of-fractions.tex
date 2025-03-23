@@ -1,0 +1,34 @@
+\subsection{Binary Arithmetic and the Representation of Fractions}
+
+An \textbf{overflow error} occurs when a \textbf{carry from the most significant bit} requires a 9th bit, but only 8 bits are used to store the result of an addition.
+
+\subsubsection*{Signed and Unsigned Binary Numbres}
+
+\begin{itemize}
+    \item An \textbf{unsigned representation} of binary number can only represented positive numbers.
+    \item A \textbf{signed representation} can represent both positive and negative numbers.
+\end{itemize}
+
+\textbf{Two's complement} is a representation of signed binary number.
+
+It works similar to numbers on an \textbf{analogue counter} - moving the wheel forward 1 will read 0001, back one the reading becomes 9999, which is interpreted as -1.
+
+The range that can be represented by two's complement using $n$ bits is given by
+$$-2^{n-1}\dots 2^n-1$$
+With 8 bits, the maximum range that can be represented as -128 (1000 0000) to 127 (0111 1111). The leftmost bit is used as a \textbf{sign bit} to indicate whether a number is negative.
+
+To negate a binary number
+\begin{enumerate}
+    \item Flip the bits.
+    \item Add one.
+\end{enumerate}
+
+\textbf{Binary subtraction} can be done using the \textbf{negative two's complement number}, then adding the second number - the carry on the addition is ignored.
+
+\subsubsection*{Fixed Point Binary Numbers}
+
+Fixed point binary numbers is a way to \textbf{represent fractions} in binary. A \textbf{binary point} is used to separate the \textbf{whole place values} from the \textbf{fractional part} on the number line.
+
+Some fraction \textbf{cannot be represented} at all, as they will require an infinite number of bits to the right of the point. The number of fractional places would therefore be \textbf{truncated} and the number will not be accurately stored, causing \textbf{rounding errors}.
+
+Two digits after the point and only represent 0, $1/4$, $1/2$, $3/4$ and nothing in between.
