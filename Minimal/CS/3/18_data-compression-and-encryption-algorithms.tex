@@ -1,0 +1,59 @@
+\subsection{Data Compression and Encryption Algorithms}
+
+In streaming audio or video, \textbf{buffering} refers to \textbf{downloading a certain amount of data} to a temporary storage area before starting to play a section of the music or movie.
+
+\subsubsection*{Lossy Compression}
+
+Lossy compression works by \textbf{removing non-essential information}.
+\begin{itemize}
+    \item A heavily compressed JPG image displays \textbf{untidy and blocky compression artifacts}.
+    \item MP3 files use lossy compression to \textbf{remove frequencies too high} for most of us to hear, and \textbf{remove quieter sounds} played at the same time as louder sounds.
+\end{itemize}
+The degree to which a file is compressed (lossy) comes at the cost of quality.
+
+\subsubsection*{Lossless Compression}
+
+\begin{itemize}
+    \item Lossless compression works by \textbf{recording patterns} in data rather than the actual data.
+    \item Using these patterns and a set of instructions on how to use them the computer can \textbf{reverse the procedure} and reassemble an image, sound or text file with \textbf{exact accuracy} and \textbf{no data is lost}.
+\end{itemize}
+
+\textbf{Lossless compression} is used when a lost of a single character would result in an error, such as the compression of program code. \textbf{Lossy compression} is used when a pixel with slightly different colour \textbf{would not be a huge consequence} in most cases.
+
+\begin{itemize}
+    \item \textbf{Run length encoding} records a value and the number of times it \textbf{repeats}.
+    \item In \textbf{dictionary based compression}, the compression algorithm searches through the text to find suitable entries in its own dictionary, and translates the message accordingly.
+
+        The longer the body of text to be compressed, the dictionary becomes \textbf{insignificant in size} compared with the original.
+\end{itemize}
+
+\subsubsection*{Encryption}
+
+Encryption is the transformation of data from one form to another to \textbf{prevent an unauthorised third party} from being able to understand it.
+\begin{itemize}
+    \item The original data is known as \textbf{plaintext}.
+    \item The encrypted data is known as \textbf{ciphertext}.
+    \item The encryption method or algorithm is known as the \textbf{cipher}.
+    \item The secret information to lock or unlock the message is known as a \textbf{key}.
+\end{itemize}
+
+The \textbf{Caesar cipher} is a type of \textbf{substitution cipher} and works by shifting the letters of the alphabet along by a given number of characters.
+
+\begin{itemize}
+    \item Ciphers that use non-random keys are open to a \textbf{cryptanalytic attack} and can be solved given enough time and resources. \textbf{Frequency analysis} is a common technique used to break a cipher.
+    \item A \textbf{true random sequence} must be collected from a physical and unpredictable phenomenon.
+
+        E.g radioactive decay.
+\end{itemize}
+
+The \textbf{Vernam cipher} is an implementation of \textbf{one-time pad ciphers}, offering \textbf{perfect security} when used properly.
+\begin{itemize}
+    \item The encryption key or one-time pad must be \textbf{equal to or longer in characters than the plaintext}, be \textbf{truly random} and \textbf{used only once}.
+    \item The sender and recipient must meet in person to \textbf{securely share the key} and \textbf{destroyed after encryption or decryption}.
+\end{itemize}
+
+Since the key is random, so will the \textbf{distribution of the characters} - so no amount of cryptanalysis will produce meaningful results.
+\begin{enumerate}
+    \item A \textbf{bitwise XOR operation} is carried between the binary representation of each character of the plaintext and the corresponding character of the one-time pad.
+    \item A bitwise XOR operation is carried out on the ciphertext using the \textbf{same one-time pad} to restore it to plaintext.
+\end{enumerate}
