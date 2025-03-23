@@ -1,0 +1,51 @@
+\subsection{Bits, Bytes and Binary}
+\begin{itemize}
+    \item A \textbf{bit} is the \textbf{fundamental unit of information} in the form of either a single 1 or 0.
+    \item A \textbf{byte} is a set of eight bits.
+    \item A \textbf{nibble} is a set of four bits.
+\end{itemize}
+
+The number of values that can be represented with $n$ bits is $2^n$.
+
+A \textbf{kibibyte} KiB is 1024 bytes, whereas a \textbf{kilobyte} KB is 1000 bytes.
+
+\subsubsection*{Character Sets}
+
+ASCII (Americal standard code for information interchange) is a code for \textbf{representing characters} on the keyboard.
+\begin{itemize}
+    \item Uses 7 bits which form 128 different \textbf{bit combinations}.
+    \item The first 32 codes represent \textbf{non-printing characters} used for control, such as backspace, enter, escape, etc.
+    \item An 8-bit version \textbf{extended ASCII} was developed to include an additional 128 combinations.
+\end{itemize}
+
+By the 1980s, several coding systems had been introduced all around the world that were all \textbf{incompatible with one another}. A new 16-bit code called the \textbf{Unicode} (UTF-16) was introduced
+\begin{itemize}
+    \item Allows for 65,536 different combinations that could represent alphabets from dozens of languages.
+    \item The first 128 codes were the \textbf{same as ASCII} so compatibility was retained.
+    \item A further version of Unicode called UTF-32 was developed to include just over a million character - more than enough to handle most of the characters from \textbf{all the languages}.
+\end{itemize}
+
+Unicode encodings take \textbf{more storage space} than ASCII, significantly \textbf{increasing file sizes} and transmission times.
+
+\subsubsection*{Error Checking and Correction}
+
+Bits can change erroneously during transmission owing to \textbf{interference}.
+\begin{itemize}
+    \item A \textbf{parity bit} is an additional bit used to check that the other bits transmitted are likely to be correct.
+    \item \textbf{Majority voting} is a system that requires each bit to be sent three times.
+
+        If a bit value is flipped erroneously during transmission, the recipient computer would use the \textbf{majority rule} and assume that the two bits that have not been changed is correct.
+
+        Majority voting \textbf{triples the volume of data} that is sent.
+    \item A \textbf{checksum} is a mathematical algorithm that is applied to a unit of data.
+        \begin{enumerate}
+            \item The data in the block is used to \textbf{create a checksum} value, which is \textbf{transmitted with the block}.
+            \item The same algorithm is applied to the block after transmission.
+            \item If the \textbf{two checksums match}, the transmission is deemed successful.
+
+                Otherwise, an error must have occurred during transmission, and the block should be \textbf{transmitted again}.
+        \end{enumerate}
+    \item A \textbf{check digit} is an additional digit at the end of a string designed to check for mistakes in an \textbf{input or transmission}.
+
+        Printed books have a unique \textbf{ISBN} (International standard book number).
+\end{itemize}
