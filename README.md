@@ -3,7 +3,7 @@
 |Task|Decks|
 |:---|---:|
 |Deck Make CS 1|0/5 ▒▒▒▒▒▒▒▒▒▒ 00%|
-|Deck Make CS 2|5/8 ██████▒▒▒▒ 60%|
+|Deck Make CS 2|6/8 ███████▒▒▒ 70%|
 |Deck Make Physics 1|16/17 █████████▒ 90%|
 |Deck Make Physics 2|2/7 ███▒▒▒▒▒▒▒ 30%|
 
