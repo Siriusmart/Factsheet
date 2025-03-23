@@ -1,0 +1,48 @@
+\subsection{Bitmapped Graphics}
+
+A bitmap image contains many \textbf{pixels} that make up the whole image.
+\begin{itemize}
+    \item A pixel is the \textbf{smallest identifiable area} of an image.
+    \item Each pixel is attributed a binary value which \textbf{represents a single colour}.
+\end{itemize}
+
+The \textbf{resolution} of an image determine the number of pixels within it. The greater the number of pixels it contains, the sharper the image, as the pixels must become smaller to fit its boundaries.
+
+Resolution of an image can be expressed as
+\begin{itemize}
+    \item \textbf{Width in pixels $\times$ height in pixels}.
+    \item Pixels per inch - indicating the density of the pixels.
+\end{itemize}
+
+The number of bits per pixel is referred to as the \textbf{colour depth}. The number of bits determines the \textbf{number of combinations}, this determines the \textbf{number of colours} that a pixel can represent.
+
+\textbf{Metadata} is data about data - details such as the image \textbf{width in pixels, height in pixels and colour depth}.
+
+\subsubsection*{Vector Graphics}
+
+Vector images are made of \textbf{geometric shapes or objects} such as lines, curves, arcs and polygons. A vector file stores only the necessary details about each shape in order to \textbf{redraw the object} when the file loads.
+
+E.g. the properties of an image of a circle.
+\begin{itemize}
+    \item The \textbf{position} of its centre,
+    \item Its \textbf{radius},
+    \item Fill and line colour,
+    \item Line weight.
+\end{itemize}
+
+These properties are stored in a \textbf{drawing list} which specifies how to redraw the object.
+
+Regardless of how large an image is draw, the image will \textbf{always be sharp}, and the amount of data required to store the image will not change.
+
+\textbf{Advantages of vector graphics}
+\begin{itemize}
+    \item Usually has a much smaller file size.
+    \item Will \textbf{scale perfectly}.
+    \item Used for logos, so the image will be sharp when printed on anything from a business card to a billboard.
+\end{itemize}
+
+\textbf{Disadvantages of vector graphics}
+\begin{itemize}
+    \item Cannot easily replicate an image with continuous areas of changing colour.
+    \item Individual pixels cannot be changed.
+\end{itemize}
