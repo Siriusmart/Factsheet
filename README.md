@@ -51,7 +51,7 @@ Anki decks can also be [viewed online](https://siriusmart.github.io/anki).
 |---|---|---|---|
 |1. Fundamentals of programming|None|None|1|
 |2. Problem Solving and Theory of Computation|None|None|1|
-|3. Data Representation|[WIP 4/6](./Minimal/CS/3/sec-3_data-representation.pdf)|[WIP 4/6](./Decks/CS/3_data-representation.apkg)|2|
+|3. Data Representation|[WIP 5/6](./Minimal/CS/3/sec-3_data-representation.pdf)|[WIP 5/6](./Decks/CS/3_data-representation.apkg)|2|
 |4. Hardware and Software|[PDF](./Minimal/CS/4/sec-4_hardware-and-software.pdf)|[APKG](./Decks/CS/4_hardware-and-software.apkg)|2|
 |5. Computer Organisation and Architecture|[PDF](./Minimal/CS/5/sec-5_computer-organisation-and-architecture.pdf)|[APKG](./Decks/CS/5_computer-organisation-and-architecture.apkg)|2|
 |6. Communication: Technology and Consequences|None|[APKG](./Decks/CS/6_communication-technology-and-consequences.apkg)|2|

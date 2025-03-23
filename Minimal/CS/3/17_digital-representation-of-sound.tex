@@ -1,0 +1,60 @@
+\subsection{Digital Representation of Sound}
+
+To represent sound in a computer, the \textbf{continuous, analogue} sound waves have to be converted to a \textbf{discrete, digital format}.
+
+This can be done by measuring and recording the amplitude of sound wave at \textbf{Given time intervals}.
+\begin{itemize}
+    \item The \textbf{more frequently} the samples are taken, the more accurately the sound will be represented.
+
+    The frequency at which samples are taken is measured in \textbf{hertz} - a unit of frequency equal to one cycle per second.
+    \item The accuracy of a sound recording increases with greater audio bit depth.
+
+        This increases the number of points of amplitude at which a sound's amplitude can be recorded at a given point in time.
+\end{itemize}
+
+The \textbf{sampling rate} is the frequency at which the amplitude of the sound is recorded.
+\begin{itemize}
+    \item The more often a sample is taken, the \textbf{smoother the playback}.
+    \item Increasing the sampling rate increases the file size.
+    \item For \textbf{stereo sound}, the file size is doubled to provide samples for both left and right channels.
+\end{itemize}
+
+$$\text{Size of a sample}=\textbf{Sampling rate}\times\textbf{Bit deapth}\times\text{Length}$$
+
+\subsubsection*{Analogue to Digital Conversion}
+
+Analogue-to-digital conversion is the process of converting an analogue sound into a digital recording.
+\begin{enumerate}
+    \item A microphone converts the \textbf{sound energy to electrical energy}.
+    \item The \textbf{analogue-to-digital converter} samples the analogue data at a given frequency.
+    \item Measuring the amplitude of the waves at each point and \textbf{converting it into a binary value}.
+\end{enumerate}
+
+To \textbf{output a sound}, the binary values for each sample point are \textbf{Translated back into analogue signals} or voltage levels and sent to an \textbf{amplifier connected to a speaker}.
+\begin{itemize}
+    \item ADC - used with analogue sensors.
+    \item DAC - convert a digital audio signal to an analogue signal.
+\end{itemize}
+
+\subsubsection*{Interpreting Sounds}
+
+The frequency of a sound is determined by the \textbf{speed of oscillation of a wave}, this \textbf{controls the pitch} and is measured in Hertz.
+
+\textbf{Nyquist's theorem} states the sampling rate must be \textbf{at least double that of the highest frequency} in the original signal.
+
+\subsubsection*{Musical Instrument Digital Interface}
+
+MIDI is a \textbf{technical standard} that describes a \textbf{protocol, digital interface and connectors} which can be used to allow a wide variety of electronic musical instruments and computers to connect and communicate with one another.
+
+\begin{itemize}
+    \item A \textbf{MIDI controller} carries \textbf{event messages} that specify pitch and duration of a not, timbre, vibrato and volume changes, and \textbf{synchronise tempo} between multiple devices.
+    \item A MIDI file is a \textbf{list of instructions} that tells it to synthesise a sound based on pre-recorded digital samples and synthesised samples of sound created by different sources of instruments.
+\end{itemize}
+
+Advantages of MIDI
+\begin{itemize}
+    \item The ability to \textbf{specify an instrument for a note} makes it possible a few musicians to recreate the music of a much larger ensemble.
+    \item A MIDI file can use 1000 times \textbf{less disk space} than a conventional recording of equivalent quality.
+    \item The music created is \textbf{easily manipulated}.
+\end{itemize}
+
