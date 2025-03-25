@@ -3,7 +3,7 @@
 |Task|Decks|
 |:---|---:|
 |Deck Make CS 1|0/5 ▒▒▒▒▒▒▒▒▒▒ 00%|
-|Deck Make CS 2|6/8 ███████▒▒▒ 70%|
+|Deck Make CS 2|7/8 ████████▒▒ 80%|
 |Deck Make Physics 1|16/17 █████████▒ 90%|
 |Deck Make Physics 2|2/7 ███▒▒▒▒▒▒▒ 30%|
 
@@ -61,5 +61,4 @@ Anki decks can also be [viewed online](https://siriusmart.github.io/anki).
 |10. The Internet|None|[APKG](./Decks/CS/10_the-internet.apkg)|2|
 |11. Databases and Software Development|[PDF 4/5](./Minimal/CS/11/sec-11_databases-and-software-development.pdf)|[APKG 4/5](./Decks/CS/11_databases-and-software-development.apkg)|2|
 |12. OOP and Functional Programming|[WIP 2/6](./Minimal/CS/12/sec-12_oop-and-functional-programming.pdf)|[WIP 2/6](./Decks/CS/12_oop-and-functioal-programming.apkg)|2|
-|Appendix A|None|None|2|
-|Appendix B|None|None|2|
+|Appendix|[PDF](./Minimal/CS/appendix/appendix.pdf)|[APKG](./Decks/CS/appendix.apkg)|2|

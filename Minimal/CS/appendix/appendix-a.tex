@@ -1,0 +1,44 @@
+\subsection*{Appendix A}
+
+Fixed point binary number assumes a \textbf{pre-determined number of bits} before and after the point.
+
+\subsubsection*{Floating Point Binary Numbers}
+
+Floating point binary allows very large numbers to be represented.
+
+In \textbf{scientific notation} $m\times 10^n$, $m$ is known as the \textbf{mantissa} and $n$ the \textbf{exponent}.
+\begin{itemize}
+    \item The leftmost bit of both the mantissa and the exponent are sign bits.
+    \item Since both numbers are represented using \textbf{two's complement}.
+    \item The binary point is to the right of the sign bit.
+\end{itemize}
+
+\subsubsection*{Normalisation}
+
+Normalisation is the process of moving the binary point of a floating point number to provide the \textbf{maximum level of precision} for a given number of bits.
+
+This is achieved by ensuring that the first digit after the binary point is a significant digit. In normalised floating point form,
+\begin{itemize}
+    \item A positive number has a sign bit of 0, and the next bit is always 1.
+    \item A negative number has a sign bit of 1, and the next bit is always 0.
+\end{itemize}
+
+The size of the mantissa determine the \textbf{precision} of the number, the size of the exponent determine the \textbf{range} of the numbers that can be held.
+
+\textbf{Rounding errors} are unavoidable and result in a loss of accuracy.
+\begin{itemize}
+    \item The \textbf{absolute error} is calculated as the difference between the number to be represented, and the actual binary number that is the closest possible approximation in the given number of bits.
+    \item The \textbf{relative error} is the absolute error divided by the number.
+\end{itemize}
+
+\subsubsection*{Advantages and Disadvantages}
+\begin{itemize}
+    \item Floating point allows a far \textbf{greater range} of numbers using the same number of bits - very large numbers and very small fractional numbers can be represented.
+
+        The larger the mantissa, the greater the precision, the larger the exponent, the greater the range.
+    \item In fixed point binary, the range and precision of the numbers that can be represented \textbf{depends on the position of the binary point}.
+
+        Fixed point binary is a \textbf{simpler system} and is faster to process.
+\end{itemize}
+
+\textbf{Underflow} occurs when a number is too small to be represented in the allotted number of bits. \textbf{Overflow} occurs when the result of a calculation is too large to be held in the number of bits allotted.

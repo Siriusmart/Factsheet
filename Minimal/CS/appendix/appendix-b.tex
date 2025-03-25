@@ -1,0 +1,26 @@
+\subsection*{Appendix B}
+
+\begin{itemize}
+    \item A \textbf{half-adders} take an input of two bits and give a two-bit output as the correct result of an \textbf{addition of the two inputs}.
+    \item A \textbf{full-adder} combines two half-adders to \textbf{add three bits together}.
+\end{itemize}
+
+Multiple full adders can be connected together, $n$ full adders can be connected together to create an adder capable of adding a binary number of $n$ bits.
+
+\subsubsection*{D-type Flip-flops}
+\begin{itemize}
+    \item A \textbf{flip-flop} is an elemental \textbf{sequential logic circuit} that can store one bit and flit between two states.
+
+        It has two inputs - a \textbf{control input} D and a \textbf{clock signal}.
+
+    \item A \textbf{clock} is a type of sequential logic circuit that changes state at regular time intervals.
+
+        Clocks are needed to synchronise the change of state of flip-flop circuits.
+    \item A \textbf{D-type flip-flop} is a \textbf{positive edge-triggered flip-flop}, it can only change the output value from 1 to 0 or vice versa when the clock is at a rising edge.
+
+        When the clock is not at a positive edge, the input value is held and does not change.
+\end{itemize}
+
+The flip-flop circuit is important because it can be \textbf{used as a memory cell} to store the state of a bit.
+
+A flip-flop comprises of several NAND gates and is effectively 1-bit memory. \textbf{Register memories} and \textbf{static RAM} are created using D-type flip-flops.
