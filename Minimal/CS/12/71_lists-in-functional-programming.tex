@@ -1,0 +1,22 @@
+\subsection{Lists in Functional Programming}
+
+A list is a \textbf{collection of similar elements} of a similar type, enclosed in square brackets. It is composed of a \textbf{head} and a \textbf{tail} - the head is the first element of the list, the tail is the remainder of the list.
+\begin{itemize}
+    \item The function \textbf{null} tests for an empty list.
+        \begin{minted}{haskell}
+        null []  -- True
+        null [1] -- False
+        \end{minted}
+    \item \textbf{Prepending} means adding an element to the front of a list.
+        \begin{minted}{haskell}
+        5:[4,3,2,1] -- [5,4,3,2,1]
+        \end{minted}
+    \item \textbf{Appending} means adding an element to the end of a list.
+        \begin{minted}{haskell}
+        [1,2,3,4] ++ [5] -- [1,2,3,4,5]
+        \end{minted}
+    \item \textbf{Length} finds the length of the list.
+        \begin{minted}{haskell}
+        length [1,2,3,4,5] -- 5
+        \end{minted}
+\end{itemize}

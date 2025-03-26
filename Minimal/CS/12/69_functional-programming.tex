@@ -1,0 +1,43 @@
+\subsection{Functional Programming}
+
+A \textbf{programming paradigm} is a style of computer programming, different programming languages support tackling problems in different ways.
+\begin{itemize}
+    \item \textbf{Procedural programming} have a series of instructions that tell that computer what to do with the input in order to solve the problem.
+
+        \textbf{Structured programming} is a type of procedural programming which uses the programming construct of \textbf{sequence, selection, iteration and recursion}. It uses modular techniques to split large programs into manageable tasks.
+    \item \textbf{Object-oriented programming} makes it possible to \textbf{abstract details of implementation} away from the user, make code \textbf{reusable} and programs \textbf{easy to maintain}.
+    \item \textbf{Declarative programming} is where you write statements to describe the program to be solved, and the language implementation decides the best way of solving it.
+    \item In \textbf{functional programming}, functions are used as the fundamental building blocks of a program. Statements are written as a \textbf{series of functions} which accept input data as arguments and return an output.
+\end{itemize}
+
+A function is a mapping from a set of inputs, called the domain, to a set of possible outputs, known as the co-domain.
+
+The process of giving particular inputs to a function is known as \textbf{functional application}.
+
+In functional programming, a \textbf{first-class object} is an object which may
+\begin{itemize}
+    \item Appear in expressions.
+    \item Be assigned to a variable.
+    \item Be assigned as an argument.
+    \item Be returned in a functional call.
+\end{itemize}
+
+\subsubsection*{Features of Functional Programming Languages}
+
+\begin{itemize}
+    \item \textbf{Statelessness}: In a functional programming language, the \textbf{values of variables} cannot change. Variables are staid to be \textbf{immutable}, and the program is said to be \textbf{stateless}.
+    \item \textbf{No side effects}: The only thing that a function can do is calculate something and return a result.
+
+        As a consequence of not being able to change the value of an object, a function that is called twice with the same parameters will always return the same result. This is called \textbf{referential transparency}.
+        \begin{itemize}
+            \item Makes it relatively easy for programmers to write correct, bug-free programs.
+            \item A simple function can be proved to be correct, then more complex functions can be built using these functions.
+        \end{itemize}
+\end{itemize}
+
+\begin{itemize}
+    \item \textbf{Functional composition}: combine two functions to get a new function.
+    \item \textbf{Types} are sets of values.
+    \item \textbf{Typeclasses} are sets of types.
+    \item A \textbf{type variable} represents any type.
+\end{itemize}

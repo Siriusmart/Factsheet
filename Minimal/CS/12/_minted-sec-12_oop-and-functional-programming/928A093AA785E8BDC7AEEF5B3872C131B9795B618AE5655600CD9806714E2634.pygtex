@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{        }\PYG{n}{null}\PYG{+w}{ }\PYG{k+kt}{[]}\PYG{+w}{  }\PYG{c+c1}{\PYGZhy{}\PYGZhy{} True}
+\PYG{+w}{        }\PYG{n}{null}\PYG{+w}{ }\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{+w}{ }\PYG{c+c1}{\PYGZhy{}\PYGZhy{} False}
+\end{Verbatim}
