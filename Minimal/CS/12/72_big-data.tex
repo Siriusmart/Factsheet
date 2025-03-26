@@ -1,0 +1,36 @@
+\subsection{Big Data}
+
+The three aspects of Big Data are
+\begin{itemize}
+    \item \textbf{Volume} - too big to fit in a single server.
+    \item \textbf{Velocity} - milliseconds to respond, particularly with streamed data.
+    \item \textbf{Variety} - the data maybe in many different forms such as structured or unstructured, text or multimedia.
+\end{itemize}
+
+Big Data collection and processing enables us to detect and analyse \textbf{relationship among and within individual pieces of information}.
+
+\subsubsection*{Functional Programming and Big Data}
+
+Functional programming has features which makes it useful for working with \textbf{data distributed across several servers}.
+\begin{itemize}
+    \item Have \textbf{no side effect} and \textbf{support statelessness}. This makes it easier to write correct code, and to understand and predict the behaviour of a program.
+    \item Support \textbf{higher order function} and operations can be \textbf{easily parallelised}. Meaning many processors can \textbf{work simultaneously} on part of a dataset without changing or affecting other parts of the data.
+    \item \textbf{Forbids assignment}, this makes parallel processing extremely easy, as the same functions always returns the same result - the functions can be \textbf{executed in any order} without any possibly that one function modifies a value and changes the behaviour of the other function.
+\end{itemize}
+
+\subsubsection*{Fact-based Model}
+
+The fact-based model is an alternative to relational data model in which \textbf{immutable facts are recorded with timestamps}.
+\begin{itemize}
+    \item Data is \textbf{never deleted} and just continues to grow.
+    \item With timestamps, it is always possible to determine what is current from what is past.
+\end{itemize}
+The fact-based model is particularly suitable for big data because it is \textbf{very simple} and database \textbf{updates are quick}.
+
+A \textbf{graph schema} shows how data are represented in the fact-based model, but often only the most recent version of facts are displayed.
+\begin{itemize}
+    \item Graph schemas can store \textbf{highly connected entities} which are not easily modelled using traditional relational database methods.
+    \item In a \textbf{graph database}, data is stored as \textbf{nodes and relationships}, both nodes and relationships have properties.
+\end{itemize}
+
+Instead of capturing relationships between entities in a join table as in a relational database, a graph database \textbf{captures the relationships themselves and their properties directly} within the stored data.
