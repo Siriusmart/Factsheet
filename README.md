@@ -35,7 +35,7 @@ Anki decks can also be [viewed online](https://siriusmart.github.io/anki).
 |20. Gases|[PDF](./Minimal/Physics/20/20_gases.pdf)|[PDF](./Full/Physics/20/20_gases.pdf)|[APKG](./Decks/Physics/20_gases.apkg)|1|
 |21. Gravitational Fields|[PDF](./Minimal/Physics/21/21_gravitational-fields.pdf)|[PDF](./Full/Physics/21/21_gravitational-fields.pdf)|[APKG](./Decks/Physics/21_gravitational-fields.apkg)|2|
 |22. Electric Fields|[PDF](./Minimal/Physics/22/22_electric-fields.pdf)|[PDF](./Decks/Physics/22_electric-fields.apkg)|[APKG](./Decks/Physics/22_electric-fields.apkg)|2|
-|23. Capacitors|None|None|None|1|
+|23. Capacitors|[PDF](./Minimal/Physics/23/23_capacitors.pdf)|None|None|1|
 |24. Magnetic Fields|None|None|None|2|
 |25. Electromagnetic Induction|None|None|None|2|
 |26. Radioactivity|None|None|None|2|

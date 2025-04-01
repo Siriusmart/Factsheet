@@ -1,0 +1,32 @@
+\subsection{Charging and Discharging a Capacitor\\through a Fixed Resistor}
+
+When a capacitor discharges through a fixed resistor, the \textbf{discharge current decreases gradually} to zero, this is because the \textbf{pd across the capacitor decreases} as it loses charge.
+
+So the \textbf{resistor current} $=\dfrac{V}{R}$.
+
+Both current, charge and pd \textbf{decreases exponentially} - they \textbf{decrease by the same factor} in equal intervals of time.
+
+Since $V=\dfrac{Q}{C}$
+\begin{align*}
+    \frac{dQ}{dt}&=-\frac{Q}{CR}\\
+    \int\frac{1}{Q}dQ&=-\int\frac{1}{CR}dt\\
+    \ln Q&=-\frac{t}{CR}+C\\
+    Q&=Q_0\exp\left(-\frac{t}{CR}\right)
+\end{align*}
+
+The quantity $RC$ is called the \textbf{time constant} of the circuit.
+
+\subsubsection*{Charging a Capacitor through a Fixed Resistor}
+
+When a capacitor is charged by connecting it to a source of constant pd, the \textbf{charging current decreases} as the capacitor charge and the pd increase.
+
+When the capacitor is fully charged
+\begin{itemize}
+    \item The pd is equal to the source pd.
+    \item The current is zero because no more charge flows.
+\end{itemize}
+
+\begin{align*}
+    I&=I_0\exp\left(-\frac{t}{RC}\right)\\
+    V&=V_0\left(1-\exp\left(-\frac{t}{RC}\right)\right)
+\end{align*}
