@@ -1,0 +1,48 @@
+\subsection{Charging and Discharging a Capacitor through a Fixed Resistor}
+
+When a capacitor discharges through a fixed resistor, the \textbf{discharge current decreases gradually to zero}. The current decreases gradually because the pd across the capacitor decreases as it loses charge.
+$$\text{resistor current}=\frac{V}{R}$$
+
+All three current, charge and pd \textbf{decreases exponentially}, meaning these quantities \textbf{decreases by the same factor in equal intervals of time}.
+
+Since $V=\frac{Q}{C}$
+$$I=\frac{V}{R}=\frac{Q}{CR}$$
+
+Solving mathematically
+\begin{align*}
+    \frac{dQ}{dt}&=-\frac{Q}{CR}\\
+    \int\frac{1}{Q}\,dQ&=-\int\frac{1}{CR}\,dt\\
+    \ln Q&=-\frac{t}{CR}+C\\
+    Q&=Q_0e^{-\frac{t}{CR}}
+\end{align*}
+
+The quantity $RC$ is called the \textbf{time constant} of the circuit. The unit of $RC$ is the second.
+\begin{itemize}
+    \item At time $t=RC$ after the start of discharge, the charge falls to $e^{-1}=0.37$ of its initial value.
+    \item At $t=5RC$, the capacitor is considered to be fully discharged.
+\end{itemize}
+
+\subsubsection*{Charging a Capacitor through a Fixed Resistor}
+
+When a capacitor is charged by connecting it to a \textbf{source of constant pd}, the \textbf{charging current decreases} as the capacitor charge and pd increase.
+
+When the capacitor is fully charged
+\begin{itemize}
+    \item Its pd is equal to the source pd.
+    \item The \textbf{current is zero} because no more charge flows in the circuit.
+\end{itemize}
+
+The time constant for the circuit is the \textbf{time taken to reach 63\%} of the final charge (37\% more needed to fully charge).
+
+\begin{itemize}
+    \item At any instance during the charging process
+        $$\text{Source pd}\ V_0=\text{resistor pd}+\text{capacitor pd}=IR+\frac{Q}{C}$$
+    \item The \textbf{initial current} $I_0=\dfrac{V_0}{R}$ because the capacitor is initially uncharged.
+    \item At time $t$ after charging starts, $I=\displaystyle I_0e^{\frac{-t}{RC}}$
+\end{itemize}
+
+Combining these equations give
+\begin{align*}
+    V_0&=V_0e^\frac{-t}{RC}+\frac{Q}{C}\\
+    \frac{Q}{C}&=V_0\left(1-e^\frac{-t}{RC}\right)=V
+\end{align*}
