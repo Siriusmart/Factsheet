@@ -37,7 +37,7 @@ Anki decks can also be [viewed online](https://siriusmart.github.io/anki).
 |22. Electric Fields|[PDF](./Minimal/Physics/22/22_electric-fields.pdf)|[PDF](./Decks/Physics/22_electric-fields.apkg)|[APKG](./Decks/Physics/22_electric-fields.apkg)|2|
 |23. Capacitors|[PDF](./Minimal/Physics/23/23_capacitors.pdf)|[PDF](./Full/Physics/23/23_capacitors.pdf)|[APKG](./Decks/Physics/23_capacitors.apkg)|1|
 |24. Magnetic Fields|[PDF](./Minimal/Physics/24/24_magnetic-fields.pdf)|[PDF](./Full/Physics/24/24_magnetic-fields.pdf)|[APKG](./Decks/Physics/24_magnetic-fields.apkg)|2|
-|25. Electromagnetic Induction|None|None|None|2|
+|25. Electromagnetic Induction|[PDF](./Minimal/Physics/25/25_electromagnetic-induction.pdf)|None|None|2|
 |26. Radioactivity|None|None|None|2|
 |27. Nuclear Energy|None|None|None|2|
 
