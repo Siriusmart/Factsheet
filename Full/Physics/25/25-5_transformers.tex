@@ -1,0 +1,67 @@
+\subsection{Transformers}
+
+A transformer changes an alternating pd to a different peak value.
+\begin{itemize}
+    \item A transformer consists of \textbf{two coils} - the primary coil and the secondary coil.
+    \item The two coils have the \textbf{same iron core}.
+\end{itemize}
+
+When the primary coil is connected to a source of \textbf{alternating pd}.
+\begin{enumerate}
+    \item An \textbf{alternating magnetic field} is produced in the core.
+    \item The field passes through the secondary coil, so an \textbf{induced emf} is induced in the secondary coil by the changing magnetic field.
+\end{enumerate}
+
+A transformer is designed so that all the magnetic flux produced by the primary coil passes through the secondary coil.
+
+\subsubsection*{The Transformer Rule}
+
+Let $\phi$ be the flux in the core passing through each turn when an alternating pd $V_p$ is applied to the primary coil.
+\begin{itemize}
+    \item The flux linkage in the secondary coil is $N_s\phi$, by Faraday's law
+        $$V_s=N_s\frac{d\phi}{dt}$$
+    \item The flux linkage in the primary coil is $N_p\phi$, by Faraday's law
+        $$V_p=N_p\frac{d\phi}{dt}$$
+\end{itemize}
+
+The induced emf in the primary coil \textbf{opposes the pd applied} to the primary coil. Assuming the resistance of the primary coil is negligible, all the applied pd acts against the induced emf in the primary coil.
+\begin{align*}
+    \text{Applied pd}&=V_p\\
+    \frac{V_s}{V_p}&=\frac{N_s\frac{d\phi}{dt}}{N_p\frac{d\phi}{dt}}\\
+                   &=\frac{N_s}{N_p}
+\end{align*}
+which is the \textbf{transformer rule}.
+
+\begin{itemize}
+    \item A \textbf{step-up transformer} has more turns on the secondary coil than the primary coil, so the secondary voltage is stepped up compared to the primary voltage.
+    \item A \textbf{step-down transformer} has fewer turns on the secondary coil than the primary coil, so the secondary voltage is stepped down compared with the primary voltage.
+\end{itemize}
+
+\subsubsection*{Transformer Efficiency}
+
+Transformers are almost 100\% efficient because they are designed with
+\begin{itemize}
+    \item \textbf{Low-resistance windings} to reduce power wasted due to the heating effect of the current.
+    \item A \textbf{laminated core} which consists of layers of iron separated by layers of insulator. \textbf{Eddy currents} are reduced so the magnetic flux is as high as possible, and the heating effect of induced currents in the core is reduced.
+    \item A core of \textbf{soft iron} core which is easily magnetised and demagnetised. This reduced power wasted through repeated magnetisation and demagnetisation of the core.
+\end{itemize}
+$$\text{Transformer efficiency}=\frac{I_sV_s}{I_pV_p}$$
+
+\subsubsection*{The Grid System}
+
+Electricity from power stations in the UK is fed into the National Grid System, which \textbf{supplies electricity} to most parts of the country.
+
+The national grid is a \textbf{network of transformers and cables}, which covers all regions o the UK.
+\begin{enumerate}
+    \item \textbf{Step-up transformers} at the power station increases the alternating voltage to 400kV for long-distance transmission via the grid system.
+    \item \textbf{Step-down transformers} operate in stages to reduce the transmitted voltage to 230V.
+\end{enumerate}
+
+Transmission of electrical power over long distances is much more efficient at high voltage than at low voltage.
+\begin{itemize}
+    \item If the voltage is increased, power wasted due to the heating effect of the current is reduced.
+    \item To deliver power $P$ at voltage $V$, the current required is $I=\dfrac{P}{V}$.
+
+        If the resistance of the cables is $R$, the power in heating the cables is $I^2R=\dfrac{P^2R}{V^2}$
+    \item Therefore the higher the voltage is, the smaller the ratio of wasted power to the power transmitted is.
+\end{itemize}
