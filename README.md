@@ -39,7 +39,7 @@ Anki decks can also be [viewed online](https://siriusmart.github.io/anki).
 |24. Magnetic Fields|[PDF](./Minimal/Physics/24/24_magnetic-fields.pdf)|[PDF](./Full/Physics/24/24_magnetic-fields.pdf)|[APKG](./Decks/Physics/24_magnetic-fields.apkg)|2|
 |25. Electromagnetic Induction|[PDF](./Minimal/Physics/25/25_electromagnetic-induction.pdf)|[PDF](./Full/Physics/25/25_electromagnetic-induction.pdf)|[APKG](./Decks/Physics/25_electromagnetic-induction.apkg)|2|
 |26. Radioactivity|None|None|None|2|
-|27. Nuclear Energy|None|None|None|2|
+|27. Nuclear Energy|[PDF](./Minimal/Physics/27/27_nuclear-energy.pdf)|None|None|2|
 
 > Paper 2 assumes paper 1 knowledge.
 
