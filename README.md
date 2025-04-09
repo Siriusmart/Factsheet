@@ -38,7 +38,7 @@ Anki decks can also be [viewed online](https://siriusmart.github.io/anki).
 |23. Capacitors|[PDF](./Minimal/Physics/23/23_capacitors.pdf)|[PDF](./Full/Physics/23/23_capacitors.pdf)|[APKG](./Decks/Physics/23_capacitors.apkg)|1|
 |24. Magnetic Fields|[PDF](./Minimal/Physics/24/24_magnetic-fields.pdf)|[PDF](./Full/Physics/24/24_magnetic-fields.pdf)|[APKG](./Decks/Physics/24_magnetic-fields.apkg)|2|
 |25. Electromagnetic Induction|[PDF](./Minimal/Physics/25/25_electromagnetic-induction.pdf)|[PDF](./Full/Physics/25/25_electromagnetic-induction.pdf)|[APKG](./Decks/Physics/25_electromagnetic-induction.apkg)|2|
-|26. Radioactivity|None|None|None|2|
+|26. Radioactivity|[WIP 1/3](./Minimal/Physics/26/26_radioactivity.pdf)|None|None|2|
 |27. Nuclear Energy|[PDF](./Minimal/Physics/27/27_nuclear-energy.pdf)|None|None|2|
 
 > Paper 2 assumes paper 1 knowledge.
